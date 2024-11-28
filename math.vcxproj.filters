@@ -24,12 +24,18 @@
     <ClCompile Include="subtraction.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="division.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="addition.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="subtraction.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="division.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

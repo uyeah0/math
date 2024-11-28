@@ -1,6 +1,7 @@
 #include <iostream>
 #include "addition.hpp"
 #include "subtraction.hpp"
+#include "division.hpp"
 
 int main() {
     int a, b;
@@ -9,9 +10,10 @@ int main() {
     std::cout << "Enter two integers: ";
     std::cin >> a >> b;
 
-    // µ¡¼À°ú »¬¼À °á°ú Ãâ·Â
+    // µ¡¼À »¬¼À ³ª´°¼À °á°ú Ãâ·Â
     std::cout << "Addition: " << add(a, b) << std::endl;
     std::cout << "Subtraction: " << subtract(a, b) << std::endl;
+    std::cout << "Division: " << division(a, b) << std::endl;
 
     // ÇÁ·Î±×·¥ Á¾·á Àü¿¡ ¿£ÅÍ Å° ÀÔ·ÂÀ» ±â´Ù¸®±â
     std::cout << "Press Enter to exit...";
